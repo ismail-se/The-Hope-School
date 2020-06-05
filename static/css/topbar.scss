@@ -1,0 +1,30 @@
+// Top Bar
+.top-bar {
+  display: flex;
+  padding: 1rem;
+  background-color: #000;
+  color: #fff;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .fa-facebook {
+    color: #f1f121;
+  }
+}
+
+@media (max-width: 600px) {
+  .top-bar {
+    flex-direction: column;
+
+    .contact {
+      margin-bottom: 0.5rem;
+    }
+  }
+}
